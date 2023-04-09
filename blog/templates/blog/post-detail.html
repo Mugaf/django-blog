@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+    Post Title
+{% endblock title %}
+{% block css_files %}
+    <link rel="stylesheet" href="{% static 'blog/post-detail.css' %}">
+{% endblock css_files %}
+{% block content %}
+    <section id="summary">
+        <h2>Post Title</h2>
+        <article>
+            <img src="{% static 'blog/images/mountain.jpg' %}" alt="Post Title">
+            <address>By Muhlifain</address>
+            <div>
+                Last Updated On <time>July 10th</time>
+            </div>
+        </article>
+    </section>
+    <main>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio natus atque porro. Expedita autem enim quis, sapiente esse, rerum sit reprehenderit officiis eligendi suscipit maiores illo accusamus atque veniam deleniti.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio natus atque porro. Expedita autem enim quis, sapiente esse, rerum sit reprehenderit officiis eligendi suscipit maiores illo accusamus atque veniam deleniti.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio natus atque porro. Expedita autem enim quis, sapiente esse, rerum sit reprehenderit officiis eligendi suscipit maiores illo accusamus atque veniam deleniti.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio natus atque porro. Expedita autem enim quis, sapiente esse, rerum sit reprehenderit officiis eligendi suscipit maiores illo accusamus atque veniam deleniti.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio natus atque porro. Expedita autem enim quis, sapiente esse, rerum sit reprehenderit officiis eligendi suscipit maiores illo accusamus atque veniam deleniti.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio natus atque porro. Expedita autem enim quis, sapiente esse, rerum sit reprehenderit officiis eligendi suscipit maiores illo accusamus atque veniam deleniti.
+        </p>
+    </main>
+{% endblock content %}
